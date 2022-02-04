@@ -226,7 +226,7 @@ HELP_LOGO = os.environ.get(
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ramadh20"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "💫"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🤙🏻"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
@@ -239,7 +239,7 @@ OWNER_BOT = os.environ.get(
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐"
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "🦖𝙆𝙔-𝙐𝘽𝙊𝙏🦖"
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
@@ -281,7 +281,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```║DAH AKTIF YA NGENTOT!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```║KY-UBOT TELAH DIAKTIFKAN YA NGENTOT!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
