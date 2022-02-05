@@ -21,7 +21,7 @@
 
 ## Credit
 TERIMAKASIH UNTUK
-
+*   [LANDAK](https://t.me/bacotbattai) - ✨RAM-UBOT✨
 *   [VICKY](https://t.me/vckyouubitch) - ⚡Geez-Userbot⚡
 *   [KOALA](https://t.me/manusiarakitann) - KAMPANG BOT
 *   [TEAMULTROID](https://github.com/TeamUltroid) - ULTROID
