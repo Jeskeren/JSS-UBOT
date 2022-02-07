@@ -75,7 +75,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^V(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MACAM BAGUS AE LU BEGITU KONTOL!!**")
+    await typew.edit("**MACAM BAGUS AE LU BEGITU KONTOL MUKA UDAH KEK SEMEN 3 RODA BELAGU BET LU!!**")
 
 
 @register(outgoing=True, pattern='^J(?: |$)(.*)')
