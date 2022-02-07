@@ -17,7 +17,7 @@ from telethon.tl.types import ChatAdminRights
 from userbot import CMD_HELP
 from userbot.events import register
 
-NO_ADMIN = "`LU BUKAN ADMIN NGENTOT!!`"
+NO_ADMIN = "`WOY HINA LU BUKAN ADMIN NGENTOT!!`"
 
 
 async def get_call(event):
@@ -42,7 +42,7 @@ async def start_voice(c):
         return
     try:
         await c.client(startvc(c.chat_id))
-        await c.edit("`OS DI MULAI, YG ONCAM LO ANJING!`")
+        await c.edit("`OS UDAH DIBUKA NGENTOT, KALO UDAH DI BUKA JANGAN ON CAM PAMERIN MUKA LU YANG MIRIP BABI HUTAN YAH BANGSAT!`")
     except Exception as ex:
         await c.edit(f"**ERROR:** `{ex}`")
 
@@ -58,7 +58,7 @@ async def stop_voice(c):
         return
     try:
         await c.client(stopvc(await get_call(c)))
-        await c.edit("`OS DIMATIIN, TYPING AJA YA NGENTOT!`")
+        await c.edit("`OS NYA DIMATIIN NORAK, TYPING AJA TYPING SABAN HARI OS MULU GA CAPE TU MULUT YA NGENTOT!`")
     except Exception as ex:
         await c.edit(f"**ERROR:** `{ex}`")
 
