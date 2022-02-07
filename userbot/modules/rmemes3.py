@@ -14,7 +14,7 @@ async def koc(e):
         sleep(1)
         await e.edit("😭😭😭")
         sleep(1)
-        await e.edit("Aku Sedihhh")
+        await e.edit("Aku Sedihhh Yah Ngentod")
         sleep(1)
         await e.edit("Kenapa si")
         sleep(1)
@@ -34,7 +34,7 @@ async def koc(e):
         sleep(1)
         await e.edit("MEMEK")
         sleep(1)
-        await e.edit("AKU DI GHOSTING")
+        await e.edit("AKU DI GHOSTING BAJINGAN")
         sleep(1)
         await e.edit("BANGSAT")
         sleep(1)
@@ -48,7 +48,7 @@ async def koc(e):
         sleep(1)
         await e.edit("TAIIII")
         sleep(1)
-        await e.edit("AH ELAHH BABI")
+        await e.edit("AH ELAHH BABI HUTAN")
         sleep(1)
         await e.edit("GAUSAH GANGGU")
         sleep(1)
@@ -68,7 +68,7 @@ async def koc(e):
         sleep(1)
         await e.edit("MAU GAK JADI PACAR GUA??༼")
         sleep(1)
-        await e.edit("༼ TAPI BOONG TOD!!༽")
+        await e.edit("༼ TAPI BOONG YAH MEMEK EHEHE!!༽")
 
 
 @register(outgoing=True, pattern='^.huh(?: |$)(.*)')
@@ -190,9 +190,9 @@ async def _(event):
         await event.edit(input_str)
 
         animation_chars = [
-            "**OWNER RAM-UBOT ADALAH MANUSIA TERGANTENG DI HATI PEMAKAI NYA, KENALAN DULU SAMA OWNER NYA YUK**"
-            "**RAMADHANI NAMANYA,ORANG NYA BAIK**"
-            "**TINGGAL NYA DI TANGERANG, BTW ORANG TANGERANG GANTENG GANTENG DAN THEBEST POKOK NYA AWWHHHH**"
+            "**OWNER KY-UBOT ADALAH MANUSIA TERGANTENG DI HATI PEMAKAI NYA, KENALAN DULU SAMA OWNER NYA YUK**"
+            "**RIZKY NAMANYA,ORANG NYA BAIK**"
+            "**TINGGAL NYA DI AMBON, BTW ORANG AMBON GANTENG GANTENG DAN THEBEST POKOK NYA AWWHHHH**"
             "**KALO MAU FORK REPONYA,IZIN DULU KE ORANG NYA YA GENGSSS**"
             "**POKOK NYA OWNER NYA THEBEST BANGET SERIUSSSSS**"
             "**UDAH POKOK NYA ITU AJA SIH,INTINYA OWNER NYA GANTENG DAN BAIK PARAH**"]
