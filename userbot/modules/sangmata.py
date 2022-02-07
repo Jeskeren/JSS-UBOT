@@ -25,7 +25,7 @@ async def lastname(steal):
     if message.sender.bot:
         await steal.edit("```Reply Ke Pesan Pengguna dulu ngentot```")
         return
-    await steal.edit("LU SIAPA SI KENTOT,GUA KEPO, GA SENENG PC!!.")
+    await steal.edit("LU SIAPA SI KENTOT MAKE AKUN FAKE BISA NYA ANJING,GUA KEPO,KENAPA? GA SENENG PC BABI!!.")
     try:
         async with bot.conversation(chat) as conv:
             try:
@@ -47,7 +47,7 @@ async def lastname(steal):
             if response.text.startswith("No records") or r.text.startswith(
                 "No records"
             ):
-                await steal.edit("```Masa Gua Gak Nemu Riwayat Namanya si ngentot, Wah si anjing belom pernah ganti nama kayak nya su!!```")
+                await steal.edit("```Masa Gua Gak Nemu Riwayat Namanya si ngentot, Wah si anjing belom pernah ganti nama kayak nya MEK!!```")
                 await steal.client.delete_messages(
                     conv.chat_id, [msg.id, r.id, response.id]
                 )
