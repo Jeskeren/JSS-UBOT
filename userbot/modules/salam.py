@@ -63,7 +63,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^C(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MUKA LU HINA, GAUSAH SOK KERAS YA ANJENGG!!**")
+    await typew.edit("**MUKA LU HINA BET HINA,SOK"AN NGATAIN HINA SADAR DIRI MUKA LU ITU LEBIH HINA DARI BABI BEGO!!**")
 
 
 @register(outgoing=True, pattern='^S(?: |$)(.*)')
@@ -81,25 +81,25 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^J(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**JELEK BANGET LU TUA, NAJIS CUIHHHH!!!**")
+    await typew.edit("**JELEK BANGET LU TUA,UDAH TUA BAU TANAH 2 JUMAAT LAGI LU SKARATUL MAUT NGENTOD!!!**")
 
 
 @register(outgoing=True, pattern='^A(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**PASANG PP DULU DEK,BIAR ORANG SEGRUP TAU BETAPA HINA NYA MUKA LU😆**")
+    await typew.edit("**PASANG PP DULU DEK,BIAR ORANG SEGRUP TAU KALO MANUSIA HINA KEK ELU GA PANTES HIDUP DI BUMI**")
 
 
 @register(outgoing=True, pattern='^X(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GC SAMPAH, CUIHHHHH!!!!!!!!!!!**")
+    await typew.edit("**GC SAMPAH MAINNYA MUTE²AN,CUIHHHHH NORAKKK BET NORAK!!!!!!!!!!!**")
 
 
 @register(outgoing=True, pattern='^Z(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**War War Tai anjing, Ketrigger minta sharelok, Udah di sharelok Ga nyamperin,Keras di sosmed Bhakss...**")
+    await typew.edit("**War War Tai anjing, Ketrigger minta sharelok, Udah di sharelok Ga nyamperin,Keras di sosmed Doang Bhakss...**")
 
 
 @register(outgoing=True, pattern='^H(?: |$)(.*)')
@@ -111,7 +111,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^O(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**JANGAN MAEN BOT MULU, ALAY LU NGENTOTT,KESANNYA NORAK, CUIHHHH!!!**")
+    await typew.edit("**JANGAN MAEN BOT MULU, LU SADAR LU NUNJUKIN KEKAMPUNGAN LU DISINI TOLOL!!!**")
 
 
 @register(outgoing=True, pattern='^G(?: |$)(.*)')
