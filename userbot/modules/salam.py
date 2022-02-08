@@ -87,13 +87,13 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^A(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**PASANG PP DULU DEK,BIAR ORANG SEGRUP TAU KALO MANUSIA HINA KEK ELU GA PANTES HIDUP DI BUMI**")
+    await typew.edit("**PASANG PP DULU DEK,BIAR ORANG SEGRUP TAU KALO MANUSIA HINA KEK ELU GA PANTES HIDUP DI BUMI!!**")
 
 
 @register(outgoing=True, pattern='^X(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GC SAMPAH MAINNYA MUTE²AN,CUIHHHHH NORAKKK BET NORAK!!!!!!!!!!!**")
+    await typew.edit("**GC SAMPAH MAINNYA MUTE²AN TUKANG NGEBAN ORANG,CUIHHHHH NORAKKK BET NORAK!!!!!!!!!!!**")
 
 
 @register(outgoing=True, pattern='^Z(?: |$)(.*)')
