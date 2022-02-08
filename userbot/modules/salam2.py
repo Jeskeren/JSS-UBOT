@@ -61,7 +61,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.gjk(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Gajelas Kontolll....**")
+    await typew.edit("**Gajelas Banget Bocah Kontolll....**")
 
 
 @register(outgoing=True, pattern='^.gbgn(?: |$)(.*)')
@@ -73,7 +73,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.gls(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GAK, LO SANGEAN!!!**")
+    await typew.edit("**GAK, LO BOCAH SAGAPUNG!!!**")
 
 
 @register(outgoing=True, pattern='^.bsl(?: |$)(.*)')
@@ -109,13 +109,13 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.hey(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Hey, Member Alay..😂**")
+    await typew.edit("**Hey, Member Alay lu Gak Pantes masuk GC ini kontol..😂**")
 
 
 @register(outgoing=True, pattern='^.loh(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GC SAMPAH KAYA GINI, BUBARIN AJA PLIS!!🤣**")
+    await typew.edit("**GC SAMPAH KAYA GINI MENDING, BUBARIN AJA ISINYA PARA²BOCAH YATIM, UDAH YATIM PIATU LAGI AHAHAHAHA!!🤣**")
 
 CMD_HELP.update({
     "salam3":
