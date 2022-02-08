@@ -54,7 +54,7 @@ async def kang(args):
                 in message.media.document.attributes
             ):
                 emoji = message.media.document.attributes[1].alt
-                if emoji != "⭐":
+                if emoji != "🤙🏻":
                     emojibypass = True
         elif "tgsticker" in message.media.document.mime_type:
             await args.edit(f"`{random.choice(KANGING_STR)}`")
@@ -76,7 +76,7 @@ async def kang(args):
     if photo:
         splat = args.text.split()
         if not emojibypass:
-            emoji = "⭐"
+            emoji = "🤙🏻"
         pack = 1
         if len(splat) == 3:
             pack = splat[2]  # User sent both
