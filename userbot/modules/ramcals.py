@@ -42,7 +42,7 @@ async def start_voice(kybot):
         return
     try:
         await kybot.client(startvc(kybot.chat_id))
-        await kyboy.edit("`OS UDAH DIBUKA NGENTOT, KALO UDAH DI BUKA JANGAN ON CAM PAMERIN MUKA LU YANG MIRIP BABI HUTAN YAH BANGSAT!`")
+        await kybot.edit("`OS UDAH DIBUKA NGENTOT, KALO UDAH DI BUKA JANGAN ON CAM PAMERIN MUKA LU YANG MIRIP BABI HUTAN YAH BANGSAT!`")
     except Exception as ex:
         await kybot.edit(f"**ERROR:** `{ex}`")
 
