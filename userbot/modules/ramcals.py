@@ -21,9 +21,9 @@ NO_ADMIN = "`WOY HINA LU BUKAN ADMIN NGENTOT!!`"
 
 
 async def get_call(event):
-    rambot = await event.client(getchat(event.chat_id))
-    rama = await event.client(getvc(rambot.full_chat.call, limit=1))
-    return rama.call
+    kybot = await event.client(getchat(event.chat_id))
+    rizky = await event.client(getvc(kybot.full_chat.call, limit=1))
+    return rizky.call
 
 
 def user_list(l, n):
@@ -32,35 +32,35 @@ def user_list(l, n):
 
 
 @register(outgoing=True, pattern=r"^\.startvc$")
-async def start_voice(c):
-    chat = await c.get_chat()
+async def start_voice(kybot):
+    chat = await kybot.get_chat()
     admin = chat.admin_rights
     creator = chat.creator
 
     if not admin and not creator:
-        await c.edit(f"**Maaf {ALIVE_NAME} Bukan Admin 👮**")
+        await kybot.edit(f"**Maaf {ALIVE_NAME} Bukan Admin 👮**")
         return
     try:
-        await c.client(startvc(c.chat_id))
-        await c.edit("`OS UDAH DIBUKA NGENTOT, KALO UDAH DI BUKA JANGAN ON CAM PAMERIN MUKA LU YANG MIRIP BABI HUTAN YAH BANGSAT!`")
+        await kybot.client(startvc(kybot.chat_id))
+        await kyboy.edit("`OS UDAH DIBUKA NGENTOT, KALO UDAH DI BUKA JANGAN ON CAM PAMERIN MUKA LU YANG MIRIP BABI HUTAN YAH BANGSAT!`")
     except Exception as ex:
-        await c.edit(f"**ERROR:** `{ex}`")
+        await kybot.edit(f"**ERROR:** `{ex}`")
 
 
 @register(outgoing=True, pattern=r"^\.stopvc$")
-async def stop_voice(c):
-    chat = await c.get_chat()
+async def stop_voice(rizky):
+    chat = await rizky.get_chat()
     admin = chat.admin_rights
     creator = chat.creator
 
     if not admin and not creator:
-        await c.edit(f"**Maaf {ALIVE_NAME} Bukan Admin 👮**")
+        await rizky.edit(f"**Maaf {ALIVE_NAME} Bukan Admin 👮**")
         return
     try:
-        await c.client(stopvc(await get_call(c)))
-        await c.edit("`OS NYA DIMATIIN NORAK, TYPING AJA TYPING SABAN HARI OS MULU GA CAPE TU MULUT YA NGENTOT!`")
+        await rizky.client(stopvc(await get_call(rizky)))
+        await rizky.edit("`OS NYA DIMATIIN NORAK, TYPING AJA TYPING SABAN HARI OS MULU GA CAPE TU MULUT YA NGENTOT!`")
     except Exception as ex:
-        await c.edit(f"**ERROR:** `{ex}`")
+        await rizky.edit(f"**ERROR:** `{ex}`")
 
 @register(outgoing=True, pattern=r"^\.vcinvite", groups_only=True)
 async def _(rambot):
