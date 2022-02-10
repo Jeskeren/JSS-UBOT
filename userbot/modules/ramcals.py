@@ -19,6 +19,12 @@ from userbot.events import register
 
 NO_ADMIN = "`WOY HINA LU BUKAN ADMIN NGENTOT!!`"
 
+def vcmention(user):
+    full_name = get_display_name(user)
+    if not isinstance(user, types.User):
+        return full_name
+    return f"[{full_name}](tg://user?id={user.id})"
+
 
 async def get_call(event):
     kybot = await event.client(getchat(event.chat_id))
