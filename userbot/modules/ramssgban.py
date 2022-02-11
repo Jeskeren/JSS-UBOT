@@ -85,7 +85,7 @@ async def gben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("`Global banned Aktif Ngentot, perintah landak!`")
+        dark = await dc.reply("`Global banned Aktif Ngentot, perintah Rizky!`")
     else:
         dark = await dc.edit("`Memproses Global Banned Bocah Kontol!!`")
     me = await userbot.client.get_me()
@@ -130,7 +130,7 @@ async def gben(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
-                await dark.edit(f"`Selamat anda di Banned Sama Tuhan ✅`")
+                await dark.edit(f"`Selamat anda di Banned Sama Tuhan Untuk Selamanya ✅`")
             except BaseException:
                 b += 1
     else:
@@ -138,7 +138,7 @@ async def gben(userbot):
     try:
         if gmute(user.id) is False:
             return await dark.edit(
-                f"**Kesalahan! Pengguna Ini Sudah Kena Perintah Global Banned.**"
+                f"**Kesalahan! Pengguna Ini Sudah Kena Global Banned Perintah Dari Tuhan.**"
             )
     except BaseException:
         pass
@@ -154,12 +154,12 @@ async def gunben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("`Membatalkan Perintah Global Banned Pengguna Ini`")
+        dark = await dc.reply("`Tuhan Membatalkan Perintah Global Banned Pengguna Ini`")
     else:
-        dark = await dc.edit("`Membatalkan Perintah Global Banned`")
+        dark = await dc.edit("`Tuhan Membatalkan Perintah Global Banned`")
     me = await userbot.client.get_me()
     await dark.edit(
-        f"`Memulai Membatalkan Perintah Global Banned, Udah Di gban Ya jamet ngentot anjing!!`"
+        f"`Memulai Tuhan Membatalkan Perintah Global Banned, Udah Di gban Sama Tuhan Ya jamet ngentot anjing!!`"
     )
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
@@ -182,7 +182,7 @@ async def gunben(userbot):
     if user:
         if user.id in DEVS:
             return await dark.edit(
-                "**Lu gabisa blacklist Dia Tolol, Karna dia Developer Gua ngentot 😤!!!**"
+                "**Lu gabisa blacklist Dia Tolol, Karna dia Tuan Gua ngentot 😤!!!**"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import ungmute
