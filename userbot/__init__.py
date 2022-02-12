@@ -378,6 +378,21 @@ with bot:
             "valid entity. Check your environment variables/config.env file.")
         quit(1)
 
+
+async def check_alive():
+    await bot.send_message(BOTLOG_CHATID, f"{BOTLOG_MSG}")
+    return
+
+with bot:
+    try:
+        bot.loop.run_until_complete(check_alive())
+    except BaseException:
+        LOGS.info(
+            "BOTLOG_CHATID environment variable isn't a "
+            "valid entity. Check your environment variables/config.env file.")
+        quit(1)
+
+
 if BOT_TOKEN is not None:
     tgbot = TelegramClient(
         "TG_BOT_TOKEN",
