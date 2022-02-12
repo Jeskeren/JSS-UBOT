@@ -368,7 +368,6 @@ async def check_botlog_chatid():
             "group. Check if you typed the Chat ID correctly.")
         quit(1)
 
-
 with bot:
     try:
         bot.loop.run_until_complete(check_botlog_chatid())
