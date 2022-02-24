@@ -34,28 +34,28 @@ async def typewriter(typew):
     await typew.edit("Ngomong apaan sih Gajelas Ngentottt")
 
 
-@register(outgoing=True, pattern='^.yb(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ybs(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Yabenarrrrrrr...**")
+    await typew.edit("**Yabenar Sekaliiii...**")
 
 
 @register(outgoing=True, pattern='^.m(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MEMEK NYA ANAK INIIIII....**")
+    await typew.edit("**YATIMM NYA ANAK INIIIII....**")
 
 
 @register(outgoing=True, pattern='^.k(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Apalo Kontolll....**")
+    await typew.edit("**Apalo MEKIIHH....**")
 
 
 @register(outgoing=True, pattern='^.gjb(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GAJELAS BABI....**")
+    await typew.edit("**GAJELAS BET BABI....**")
 
 
 @register(outgoing=True, pattern='^.gjk(?: |$)(.*)')
@@ -76,10 +76,10 @@ async def typewriter(typew):
     await typew.edit("**GAK, LO BOCAH SAGAPUNG!!!**")
 
 
-@register(outgoing=True, pattern='^.bsl(?: |$)(.*)')
+@register(outgoing=True, pattern='^.mlb(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**BAU SAWI LO..!!**")
+    await typew.edit("**MULUT LU BAUU MEKIH..!!**")
 
 
 @register(outgoing=True, pattern='^.hai(?: |$)(.*)')
@@ -91,7 +91,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.em(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Eh memek..!!!**")
+    await typew.edit("**Eh MEKIHH..!!!**")
 
 
 @register(outgoing=True, pattern='^.eh(?: |$)(.*)')
@@ -115,7 +115,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.loh(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GC SAMPAH KAYA GINI MENDING, BUBARIN AJA ISINYA PARA²BOCAH YATIM, UDAH YATIM PIATU LAGI AHAHAHAHA!!🤣**")
+    await typew.edit("**GC SAMPAH KAYA GINI MENDING, BUBARIN AJA ISINYA PARA²BOCAH YATIM, UDAH YATIM,PIATU LAGI AHAHAHAHA!!🤣**")
 
 CMD_HELP.update({
     "salam3":
