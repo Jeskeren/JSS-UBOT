@@ -110,7 +110,7 @@ async def set_var(var):
                 "**Mengganti Config Vars**:\n"
                 f"`{variable}` = `{value}`"
             )
-        await var.edit("`Sedang Di Proses, Mohon Menunggu Dalam Beberapa Detik `")
+        await var.edit("`Sedang Di Proses, Mohon Menunggu Dalam Beberapa Detik Yah Mekih `")
     else:
         if BOTLOG:
             await var.client.send_message(
@@ -118,7 +118,7 @@ async def set_var(var):
                 "**Menambahkan Config Vars**:\n"
                 f"`{variable}` **=** `{value}`"
             )
-        await var.edit("`Menambahkan Config Vars...`")
+        await var.edit("`Menambahkan Config Vars Mu Yah Tod...`")
     heroku_var[variable] = value
 
 
@@ -132,9 +132,9 @@ async def dyno_usage(dyno):
     """
         Get your account Dyno Usage
     """
-    await dyno.edit("`Memeriksa Dyno Heroku anda...`")
+    await dyno.edit("`Memeriksa Dyno Heroku anda Yah Tod...`")
     await asyncio.sleep(3)
-    await dyno.edit("✨")
+    await dyno.edit("🤙🏻")
     await asyncio.sleep(2)
     useragent = (
         'Mozilla/5.0 (Linux; Android 10; SM-G975F) '
