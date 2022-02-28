@@ -176,7 +176,7 @@ async def demote(dmod):
         return await dmod.edit(NO_ADMIN)
 
     # If passing, declare that we're going to demote
-    await dmod.edit("`Otw Hapus Admin dulu ges...`")
+    await dmod.edit("`Otw Hapus Babu dulu ges...`")
     rank = "Admin"  # dummy rank, lol.
     user = await get_user_from_event(dmod)
     user = user[0]
@@ -200,7 +200,7 @@ async def demote(dmod):
     # Assume we don't have permission to demote
     except BadRequestError:
         return await dmod.edit(NO_PERM)
-    await dmod.edit("`Admin Berhasil Dilepas! Makanya Jangan semena mena tolol`")
+    await dmod.edit("`Admin Berhasil Dilepas! Makanya Kalo Jadi Admin Jangan semena mena yah ngentod sebagai`")
     await sleep(5)
     await dmod.delete()
 
@@ -280,7 +280,7 @@ async def nothanos(unbon):
     if not admin and not creator:
         return await unbon.edit(NO_ADMIN)
 
-    # If everything goes well...
+    # If everything goes well... No
     await unbon.edit("`Kita Unban gess, Kasian...`")
 
     user = await get_user_from_event(unbon)
