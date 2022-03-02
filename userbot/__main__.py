@@ -11,7 +11,7 @@ from importlib import import_module
 from userbot import ALIVE_NAME, BOT_VER, BOTLOG_CHATID, LOGS, UPSTREAM_REPO_BRANCH, bot
 from userbot.modules import ALL_MODULES
 from userbot.utils.tools import hadeh_ajg
-
+from userbot.utils.utils import autobot
 try:
     for module_name in ALL_MODULES:
         imported_module = import_module("userbot.modules." + module_name)
@@ -32,7 +32,7 @@ async def kyy_ubot_on():
     except Exception as e:
         LOGS.info(str(e))
 
-
+bot.loop.run_until_complete(autobot())
 bot.loop.run_until_complete(kyy_ubot_on())
 bot.loop.run_until_complete(hadeh_ajg())
 if len(sys.argv) not in (1, 3, 4):
