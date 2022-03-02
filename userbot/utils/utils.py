@@ -39,11 +39,11 @@ async def autobot():
         BOTLOG_CHATID, "**GUA LAGI BIKIN BOT ASISSTANT DI @BOTFATHER YA NGENTOD, SABAR DULU LU, KALO GA SABAR MATI AJA NYUSUL BAPAK LO**"
     )
     who = await bot.get_me()
-    name = "🤙🏻𝗞𝗬-𝗨𝗕𝗢𝗧 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁🤙🏻"
+    name = who.first_name + " Assistant"
     if who.username:
         username = who.username + "_ubot"
     else:
-        username = "Asisstant" + (str(who.id))[5:] + "Bot"
+        username = "Kyubot" + (str(who.id))[5:] + "Bot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -62,7 +62,7 @@ async def autobot():
     await asyncio.sleep(1)
     isdone = (await bot.get_messages(bf, limit=1))[0].text
     if not isdone.startswith("Good."):
-        await bot.send_message(bf, "My Assistant Bot")
+        await bot.send_message(bf, "My Assistant Ky-UBot")
         await asyncio.sleep(1)
         isdone = (await bot.get_messages(bf, limit=1))[0].text
         if not isdone.startswith("Good."):
