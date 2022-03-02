@@ -39,7 +39,7 @@ async def autobot():
         BOTLOG_CHATID, "**GUA LAGI BIKIN BOT ASISSTANT DI @BOTFATHER YA NGENTOD, SABAR DULU LU, KALO GA SABAR MATI AJA NYUSUL BAPAK LO**"
     )
     who = await bot.get_me()
-    name = 🤙🏻𝗞𝗬-𝗨𝗕𝗢𝗧 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁🤙🏻"
+    name = "🤙🏻𝗞𝗬-𝗨𝗕𝗢𝗧 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁🤙🏻"
     if who.username:
         username = who.username + "_ubot"
     else:
