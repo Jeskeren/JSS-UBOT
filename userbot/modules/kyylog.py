@@ -225,4 +225,3 @@ CMD_HELP.update(
         \n\n •  **Command  :** `.gruplog on/off`\
         \n  •  **Function  : **__Untuk mengaktifkan atau menonaktifkan tag grup, yang akan masuk ke grup pmlogger.__"
     }
-)
