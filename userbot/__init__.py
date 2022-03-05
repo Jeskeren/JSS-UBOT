@@ -109,7 +109,7 @@ UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
     "https://github.com/rizkypratama2/KY-UBOT")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "KY-UBOT")
+    "UPSTREAM_REPO_BRANCH", "𝙆𝙔-𝙐𝘽𝙊𝙏")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -203,7 +203,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "KY-UBOT")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "𝙆𝙔-𝙐𝘽𝙊𝙏")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "8.2.1")
@@ -572,7 +572,7 @@ with bot:
                     title="🤙🏻 𝙆𝙔-𝙐𝘽𝙊𝙏 🤙🏻",
                     description="KY-UBOT | Telethon",
                     url="https://t.me/geezsupport",
-                    text=f"**KY-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n🤙🏻 **OWNER:** [ʀɪᴢᴋʏ ᴘʀᴀᴛᴀᴍᴀ](t.me/maafgausahsokap)\n🤙🏻 **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @userbotchannel\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**KY-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n🤙🏻 **OWNER:** [ʀɪᴢᴋʏ ᴘʀᴀᴛᴀᴍᴀ](https://t.me/sansdaddy)\n🤙🏻 **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @userbotchannel\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/geezprojectt"),
