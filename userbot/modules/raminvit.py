@@ -57,9 +57,9 @@ async def get_users(event):
     sender = await event.get_sender()
     me = await event.client.get_me()
     if not sender.id == me.id:
-        ram = await event.reply("`proses menambahkan beberapa binatang...`")
+        ram = await event.reply("`proses menambahkan beberapa binatang ke Grup Yah Ngentod...`")
     else:
-        ram = await event.edit("`Awas Limit tot!!...`")
+        ram = await event.edit("`Awas Limit Goblok!!...`")
     ramubotteam = await get_chatinfo(event)
     chat = await event.get_chat()
     if event.is_private:
