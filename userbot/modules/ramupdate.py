@@ -70,7 +70,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             )
             return repo.__del__()
         await event.edit(f'`𝙆𝙔-𝙐𝘽𝙊𝙏:'
-                         f'\nSedang Dalam proses Update 𝙆𝙔-𝙐𝘽𝙊𝙏, Mohon Menunggu beberapa Menit`'
+                         f'\nSedang Dalam proses Update 𝙆𝙔-𝙐𝘽𝙊𝙏, Mohon Menunggu beberapa Menit Ngentod`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -94,14 +94,14 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit(f"`𝙆𝙔-𝙐𝘽𝙊𝙏 Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu.....`")
+            await event.edit(f"`𝙆𝙔-𝙐𝘽𝙊𝙏 Berhasil Di Deploy!\n" "Restarting Tod, Yang Sabar Yah Mekih.....`")
             await asyncio.sleep(15)
             await event.delete()
 
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`𝙆𝙔-𝙐𝘽𝙊𝙏 Berhasil Di Update`")
+                "`𝙆𝙔-𝙐𝘽𝙊𝙏 Berhasil Di Update Yah Memek`")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -118,11 +118,11 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit(f'**𝙆𝙔-𝙐𝘽𝙊𝙏** `Berhasil Di Update!`')
+    await event.edit(f'**𝙆𝙔-𝙐𝘽𝙊𝙏** `Berhasil Di Update Yah Ngentod!`')
     await asyncio.sleep(1)
-    await event.edit(f'**𝙆𝙔-𝙐𝘽𝙊𝙏** `Di Restart....`')
+    await event.edit(f'**𝙆𝙔-𝙐𝘽𝙊𝙏** `Di Restart Dulu Memek....`')
     await asyncio.sleep(1)
-    await event.edit('`Mohon Menunggu Beberapa Detik...ツ`')
+    await event.edit('`Mohon Menunggu Beberapa Detik Yah Tod...ツ`')
     await asyncio.sleep(10)
     await event.delete()
 
@@ -192,13 +192,13 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f"\n**{REPO_NAME} Sudah Versi Terbaru**\n")
+            f"\n**{REPO_NAME} Ini Sudah Versi Terbaru Ngentod**\n")
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f"**Pembaruan Untuk {REPO_NAME} [{REPO_NAME}]:\n\n✨Pembaruan:**\n`{changelog}`"
+        changelog_str = f"**Pembaruan Untuk {REPO_NAME} [{REPO_NAME}]:\n\n🤙🏻Pembaruan:**\n`{changelog}`"
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -212,7 +212,7 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond(f"**Perintah Untuk Update {REPO_NAME}**\n >`.update one`\n >`.update all`\n\n__Untuk Meng Update Fitur Terbaru Dari {REPO_NAME}.__")
+        return await event.respond(f"**Perintah Untuk Update Tod {REPO_NAME}**\n >`.update one`\n >`.update all`\n\n__Untuk Meng Update Fitur Terbaru Dari {REPO_NAME}.__")
 
     if force_update:
         await event.edit(
@@ -223,7 +223,7 @@ async def upstream(event):
         await event.edit(f"`{EMOJI_HELP} Proses Update {REPO_NAME}, Loading....35%`")
         await event.edit(f"`{EMOJI_HELP} Proses Update {REPO_NAME}, Loading....77%`")
         await event.edit(f"`{EMOJI_HELP} Proses Update {REPO_NAME}, Updating...90%`")
-        await event.edit(f"`{EMOJI_HELP} Proses Update {REPO_NAME}, Mohon Menunggu....100%`")
+        await event.edit(f"`{EMOJI_HELP} Proses Update {REPO_NAME}, Sabar Yah Ngentod Lagi Di Update....100%`")
     if conf == "one":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(5)
@@ -238,9 +238,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     ".update"
-    "\nUsage: Untuk Melihat Pembaruan Terbaru RAM-UBOT."
+    "\nUsage: Untuk Melihat Pembaruan Terbaru KY-UBOT."
     "\n\n.update one"
-    "\nUsage: Memperbarui RAM-UBOT."
+    "\nUsage: Memperbarui KY-UBOT."
     "\n\n.update all"
-    "\nUsage: Memperbarui RAM-UBOT Dengan Cara Deploy Ulang."
+    "\nUsage: Memperbarui KY-UBOT Dengan Cara Deploy Ulang."
 })
