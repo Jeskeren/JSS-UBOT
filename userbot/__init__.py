@@ -24,7 +24,7 @@ from requests import get
 from telethon import Button
 from telethon.errors import UserIsBlockedError
 from telethon.network.connection.tcpabridged import ConnectionTcpAbridged
-from telethone.tl.functions.channels import JoinChannelRequest
+from telethon.tl.functions.channels import JoinChannelRequest
 from telethon.sessions import StringSession
 from telethon.sync import TelegramClient, custom, events
 from telethon.tl.types import InputWebDocument
