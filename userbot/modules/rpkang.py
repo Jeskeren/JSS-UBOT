@@ -101,4 +101,4 @@ async def _(event):
 
 
 CMD_HELP.update({"packkang": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.pkang`"
-                 "\n↳ : **Reply Dan Ketik .pkang Ke Sticker
+                 "\n↳ : **Reply Dan Ketik .pkang Ke Sticker**"})
