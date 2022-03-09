@@ -532,7 +532,7 @@ with bot:
                             text="GROUP", url="https://t.me/Geezsupport"
                         ),
                         custom.Button.url(
-                            text="CHANNEL", url="https://t.me/GeezProjectt"
+                            text="CHANNEL", url="https://t.me/Ky_project"
                         ),
                     ],
                 ],
