@@ -184,7 +184,7 @@ REPO_NAME = os.environ.get("REPO_NAME") or "🤙🏻𝙆𝙔-𝙐𝘽𝙊𝙏�
 DEVS = (
     1493275656,
     1826643972,
-    1166458821,
+    
 )
 
 # Default .alive Name
