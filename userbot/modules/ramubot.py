@@ -50,7 +50,7 @@ async def typewriter(typew):
     await typew.edit("**HANS SAGAPUNG✅**")
     sleep(2)
     await typew.edit("**EXY GACOR BET☑️**")
-    await typew.edit("**Exy GACOR BET✅**")
+    await typew.edit("**EXY GACOR BET✅**")
     sleep(2)
     await typew.edit("**RAMA KEK MEKIH☑️**")
     await typew.edit("**RAMA KEK MEKIH✅**")
@@ -65,9 +65,9 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("SIH BOCAH YATIM INI`NGOMONG APAAN DAH?`")
     sleep(1)
-    await typew.edit("`Gausah sok keras Dah buset`")
+    await typew.edit("`Gausah sok keras Yah Piatu`")
     sleep(1)
-    await typew.edit("`Gua ga ketrigger sama bocah baru nyemplung!`")
+    await typew.edit("`Gua ga ketrigger sama bocah yatim piatu ke elu😊!`")
 
 
 @register(outgoing=True, pattern='^.wah(?: |$)(.*)')
