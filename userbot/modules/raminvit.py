@@ -40,10 +40,10 @@ async def get_chatinfo(event):
             await event.reply("`Id channel/group Tidak valid bangsat bener.`")
             return None
         except ChannelPrivateError:
-            await event.reply("`Ini Grup private ni bang, Atau kayanya gua ke banned dah bangsat adminnya.`")
+            await event.reply("`Ini Grup private ni Ngentod, Atau kayanya gua ke banned dah bangsat adminnya.`")
             return None
         except ChannelPublicGroupNaError:
-            await event.reply("`Channel Atau grup eror ni babi`")
+            await event.reply("`Channel Atau grup eror ni Ngentod`")
             return None
         except (TypeError, ValueError):
             await event.reply("`id Group/channel udh gabisa nih.`")
@@ -57,9 +57,9 @@ async def get_users(event):
     sender = await event.get_sender()
     me = await event.client.get_me()
     if not sender.id == me.id:
-        ram = await event.reply("`proses menambahkan beberapa binatang ke Grup Yah Ngentod...`")
+        ram = await event.reply("`proses menambahkan beberapa Hewan ke Grup Yah Ngentod...`")
     else:
-        ram = await event.edit("`Awas Limit Goblok!!...`")
+        ram = await event.edit("`Awas Limit Kontollk!...`")
     ramubotteam = await get_chatinfo(event)
     chat = await event.get_chat()
     if event.is_private:
