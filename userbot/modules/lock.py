@@ -92,10 +92,10 @@ async def locks(event):
         await event.client(
             EditChatDefaultBannedRightsRequest(peer=peer_id,
                                                banned_rights=lock_rights))
-        await event.edit(f"`WAHAHAH GUA KUNCI {what} DULU YA MEMBER NGENTOT!!`")
+        await event.edit(f"`WAHAHAH GUA TUTUP {what} DULU YA MEMBER NGENTOT!!`")
     except BaseException as e:
         await event.edit(
-            f"`EMANG LU ADMIN SINI TOT? ?`\n**Kesalahan:** {str(e)}")
+            f"`EMANG LU ADMIN DISINI TOD? ?`\n**Kesalahan:** {str(e)}")
         return
 
 
@@ -180,7 +180,7 @@ async def rem_locks(event):
         await event.client(
             EditChatDefaultBannedRightsRequest(peer=peer_id,
                                                banned_rights=unlock_rights))
-        await event.edit(f"`WOE MEMBER ANJING, DAH GUA BUKA {what} TUH, JANGAN RUSUH YA!`")
+        await event.edit(f"`WOE MEMBER NGENTOD, DAH GUA BUKA {what} TUH, JANGAN RUSUH YA MEMEK!`")
     except BaseException as e:
         await event.edit(
             f"`EMANG LU ADMIN SINI GOBLOK?`\n**Kesalahan:** {str(e)}")
