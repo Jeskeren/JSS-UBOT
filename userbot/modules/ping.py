@@ -21,28 +21,28 @@ gesss = [
     "Hadir ganteng 😍",
     "Hi Tuan, kemana sj? 🤗",
     "Hadir kak 😉",
-    "Hadir bang 😁",
+    "Hadir bang elegant😁",
     "Hadir bang maap telat 🥺",
     "Saya slalu ada buat Owner elegant🥵",
-    "Jangan kemana mana lagi ya bang",
+    "Jangan kemana mana lagi ya Kontol😏",
     "Pas banget bang, aku lagi kangen",
-    "Yeayyy owner Gua on juga akhirnya🥵",
+    "Yeayyy owner Elegant Gua on juga akhirnya🥵",
 ]
 
 brb = [
     "Bang owner mau off.",
     "Jangan off dong bang.",
-    "Bang, mau kemana?",
-    "Jangan lama lama bang",
+    "Bang, lu mau kemana?",
+    "Jangan lama lama Off nya bang",
     "Siap bang.",
     "Yah udah off aja bang.",
-    "Off lagi, mau ngewe ya?",
+    "Off lagi, Pasti Mo Ngentod Nih?",
     "Bang developer, lagi ange kah? ",
     "Jangan lupa makan bang.",
-    "Yah pasti mao bucin ni.",
+    "Yah pasti mao bucin Taii anjing ni.",
     "Jangan off terus lah bang.",
     "Mau nonton bokep kah?",
-    "Bang Ganteng telah off.",
+    "Bang Elegant telah off.",
 ]
 
 async def get_readable_time(seconds: int) -> str:
