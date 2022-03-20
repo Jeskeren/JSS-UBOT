@@ -188,8 +188,6 @@ DEVS = (
     1826643972,
 )
 
-# devg
-DEVG = [1493275656, 1826643972, 2016869145]
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
