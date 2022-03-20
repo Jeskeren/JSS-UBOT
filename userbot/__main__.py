@@ -8,7 +8,7 @@
 import sys
 from importlib import import_module
 
-from userbot import ALIVE_NAME, BOT_VER, BOTLOG_CHATID, LOGS, UPSTREAM_REPO_BRANCH, bot
+from userbot import ALIVE_NAME, BOT_VER, BOTLOG_CHATID, LOGS, UPSTREAM_REPO_BRANCH, call_py, bot
 from userbot.modules import ALL_MODULES
 from pytgcalls import idle
 from userbot.utils.tools import hadeh_ajg
@@ -17,6 +17,7 @@ try:
     for module_name in ALL_MODULES:
         imported_module = import_module("userbot.modules." + module_name)
     bot.start()
+    call_py.start()
     LOGS.info(f"🤙🏻𝙆𝙔-𝙐𝘽𝙊𝙏🤙🏻 🦖 V{BOT_VER} [ TELAH DIAKTIFKAN TOD! ]")
 except BaseException as e:
     LOGS.info(str(e), exc_info=True)
