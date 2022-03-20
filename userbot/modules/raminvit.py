@@ -13,7 +13,7 @@ from telethon.errors import (
 from telethon.tl.functions.channels import GetFullChannelRequest
 
 from userbot.events import register
-from userbot import CMD_HELP, DEVS
+from userbot import CMD_HELP, DEVG
 
 
 async def get_chatinfo(event):
