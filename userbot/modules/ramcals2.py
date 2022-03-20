@@ -410,7 +410,7 @@ async def vc_pause(event):
         await edit_delete(event, "**Tidak Sedang Memutar Streaming**")
 
 
-@ram_cmd(pattern="resume$")
+@register(outgoing=True, pattern=r"^\.resume$")
 async def vc_resume(event):
     chat_id = event.chat_id
     if chat_id in QUEUE:
