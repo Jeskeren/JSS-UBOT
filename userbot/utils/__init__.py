@@ -27,6 +27,7 @@ from .tools import (
     post_to_telegraph,
     take_screen_shot,
     runcmd,
+    bash,
     edit_delete,
     edit_or_reply,
     media_type,
