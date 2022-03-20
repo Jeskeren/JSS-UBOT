@@ -1,4 +1,4 @@
-fixes by : RAM-UBOT
+# fixes by : RAM-UBOT
 
 from pytgcalls import StreamType
 from pytgcalls.types import Update
