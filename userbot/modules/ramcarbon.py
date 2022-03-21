@@ -79,7 +79,7 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by [LANDAK 🦔](https://t.me/maafgausahsokap/)\
+        caption="Created by [RIZKY 🤙🏻](https://t.me/sansdaddy/)\
         \nGroup [SPAM BOT](https://t.me/ootspambot/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
@@ -145,7 +145,7 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="created by [LANDAK 🦔](https://t.me/maafgausahsokap/)\
+        caption="created by [RIZKY 🤙🏻](https://t.me/sansdaddy/)\
         \nGroup Support [Dawn Labs](https://t.me/ootspambot/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
@@ -211,7 +211,7 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created By [LANDAK 🦔](https://t.me/maafgausahsokap/)\
+        caption="Created By [RIZKY 🤙🏻](https://t.me/sansdaddy/)\
         \nGroup Support [Spam](https://t.me/ootspambot/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
@@ -277,7 +277,7 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by [LANDAK 🦔](https://t.me/maafgausahsokap/),\
+        caption="Created by [RIZKY 🤙🏻](https://t.me/sansdaddy/),\
         \nGroup Support [Group Spam](https://t.me/ootspambot)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
@@ -343,7 +343,7 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by [LANDAK 🦔](https://t.me/maafgausahsokap/),\
+        caption="Created by [RIZKY 🤙🏻](https://t.me/sansdaddy/),\
         \nGroup Support [Spam BOT](https://t.me/ootspambot/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
