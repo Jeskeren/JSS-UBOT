@@ -556,7 +556,7 @@ with bot:
                             text="GROUP", url="https://t.me/healingvirtual"
                         ),
                         custom.Button.url(
-                            text="CHANNEL", url="https://t.me/kisahjes"
+                            text="CHANNEL", url="https://t.me/Kisahjes"
                         ),
                     ],
                 ],
@@ -595,7 +595,7 @@ with bot:
                 result = builder.article(
                     title="🃏JESS - UBOT🃏",
                     description="JESS-UBOT | Telethon",
-                    url="https://t.me/geezsupport",
+                    url="https://t.me/healingvirtual",
                     text=f"**JESS-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n🃏 **OWNER:** [JESS](https://t.me/senseijess)\n🃏 **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @kisahjes\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
