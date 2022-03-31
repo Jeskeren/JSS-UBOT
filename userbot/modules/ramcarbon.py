@@ -163,7 +163,7 @@ all_col = [
 ]
 
 
-@register(outgoing=True, pattern=r"^\.(?:rcarbon|carbon)s\")
+@register(outgoing=True, pattern="^\.(?:rcarbon|carbon)")
 async def crbn(event):
     from_user = vcmention(event.sender)
     xxxx = await edit_or_reply(event, "`Processing...`")
