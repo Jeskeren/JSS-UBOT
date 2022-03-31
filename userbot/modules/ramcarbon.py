@@ -163,7 +163,7 @@ all_col = [
 ]
 
 
-@register(outgoing=True, pattern=".(rc|c)arbon")
+@register(outgoing=True, pattern=r"^\.(?:carbon|rcarbon)\s?(.)?")
 async def crbn(event):
     from_user = vcmention(event.sender)
     xxxx = await edit_or_reply(event, "`Processing...`")
@@ -193,7 +193,7 @@ async def crbn(event):
     )
 
 
-@register(outgoing=True, pattern=r"^\.ccarbon ?(.*)")
+@register(outgoing=True, pattern=r".ccarbon ?(.*)$")
 async def crbn(event):
     from_user = vcmention(event.sender)
     match = event.pattern_match.group(1).strip()
