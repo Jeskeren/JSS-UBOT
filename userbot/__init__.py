@@ -228,30 +228,30 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/d61b2d2b760005ff0f627.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/749641a375bb5862000e7.jpg"
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/d61b2d2b760005ff0f627.jpg"
+   "HELP_LOGO") or "https://telegra.ph/file/749641a375bb5862000e7.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ky_rmdhn24"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🤙🏻"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🃏"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
-    "GROUP_LINK") or "t.me/geezsupport"
+    "GROUP_LINK") or "t.me/healingvirtual"
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/GeezProjectt"
+    "OWNER_BOT") or "t.me/Senseijess"
 
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "🦖𝙆𝙔-𝙐𝘽𝙊𝙏🦖"
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "🃏JESS-UBOT🃏"
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
@@ -293,7 +293,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```║𝙆𝙔-𝙐𝘽𝙊𝙏 TELAH DIAKTIFKAN YAH PUKI!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nKalo gak Bisa di.ping\nLiat\nDi viewlogs\nheroku Eluu Yah Kontol.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```║🃏JESS-UBOT🃏 TELAH DIAKTIFKAN YAH PUKI!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nKalo gak Bisa di.ping\nLiat\nDi viewlogs\nheroku Eluu Yah Kontol.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -439,7 +439,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
     message = (
-        f"**🤙🏻𝙆𝙔-𝙐𝘽𝙊𝙏🤙🏻 v{BOT_VER} Sedang berjalan!**\n\n"
+        f"**🃏JESS-UBOT🃏 v{BOT_VER} Sedang berjalan!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {DEFAULTUSER}"
@@ -508,7 +508,7 @@ def paginate_help(page_number, loaded_modules, prefix):
                     "< ̤< ̤", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    f"🤙🏻 𝗖𝗟𝗢𝗦𝗘 🤙🏻", data="{}_close({})".format(prefix, modulo_page)
+                    f"🃏JESS-UBOT🃏", data="{}_close({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
                     "> ̤> ̤", data="{}_next({})".format(prefix, modulo_page)
@@ -520,7 +520,7 @@ def paginate_help(page_number, loaded_modules, prefix):
 
 with bot:
     try:
-        bot(JoinChannelRequest("@ky_project"))
+        bot(JoinChannelRequest("@Kisahjes"))
         bot(JoinChannelRequest("@ramgabut"))
 
         dugmeler = CMD_HELP
@@ -534,7 +534,7 @@ with bot:
         async def handler(event):
             await event.message.get_sender()
             text = (
-                f"**Hey**, __I am using__  **🤙🏻𝙆𝙔-𝙐𝘽𝙊𝙏🤙🏻** \n\n"
+                f"**Hey**, __I am using__  **🃏JESS-UBOT🃏** \n\n"
                 f"       __Thanks For Using me__\n\n"
                 f"🤙🏻 **Group Support :** [GEEZ](t.me/Geezsupport)\n"
                 f"🤙🏻 **Owner Repo :** [ʀɪᴢᴋʏ ᴘʀᴀᴛᴀᴍᴀ](t.me/GeezProjectt)\n"
