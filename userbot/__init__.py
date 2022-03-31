@@ -110,9 +110,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/rizkypratama2/KY-UBOT")
+    "https://github.com/Jeskeren/JSS-UBOT")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "KY-UBOT")
+    "UPSTREAM_REPO_BRANCH", "JS-UBOT")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -180,12 +180,12 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "🤙🏻𝙆𝙔-𝙐𝘽𝙊𝙏🤙🏻"
+REPO_NAME = os.environ.get("REPO_NAME") or "🃏JESS-UBOT🃏"
 
 # DEVS
 DEVS = (
-    1493275656,
-    1826643972,
+    1683788007,
+    2104309210,
 )
 
 
