@@ -579,7 +579,7 @@ with bot:
                 result = builder.article(
                     title="Repository",
                     description="Repository 🃏JESS-UBOT🃏",
-                    url="https://t.me/geezsupport",
+                    url="https://t.me/healingvirtual",
                     text="**🃏JESS-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n🃏 **Owner :** [JESS](https://t.me/senseijess)\n🃏 **Support :** @healingvirtual\n🃏 **Repository :** [🃏JESS-UBOT🃏](https://github.com/Jeskeren/JSS-UBOT)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
@@ -692,9 +692,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("📢 Channel Support",
-                                       "t.me/userbotchannel"),
+                                       "t.me/Kisahjes"),
                             Button.url("🚨 Group support",
-                                       "t.me/GeezSupportGroup")],
+                                       "t.me/Healingvirtual")],
                         [Button.inline("Open Menu", data="nepo")],
                         [custom.Button.inline(
                             "Close", b"close")],
