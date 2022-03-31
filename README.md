@@ -2,11 +2,11 @@
 
 <p align="center">
   <a href="https://github.com/Jeskeren/Deploy/fork">
-    <img src="https://img.shields.io/github/forks/Jeskeren/JESS-UBOT?label=Fork&style=social">
+    <img src="https://img.shields.io/github/forks/Jeskeren/JSS-UBOT?label=Fork&style=social">
     
   </a>
   <a href="https://github.com/Jeskeren/JESS-UBOT">
-    <img src="https://img.shields.io/github/stars/Jeskeren/JESS-UBOT?style=social">
+    <img src="https://img.shields.io/github/stars/Jeskeren/JSS-UBOT?style=social">
   </a>
 </p>  
 
