@@ -6,7 +6,7 @@ FROM ramadhani892/ramagans:slim-buster
 # ======================
 ##
 
-RUN git clone -b JS-UBOT https://github.com/Jeskeren/JS-UBOT /home/ram-ubot/ \
+RUN git clone -b JS-UBOT https://github.com/Jeskeren/JSS-UBOT /home/ram-ubot/ \
     && chmod 777 /home/ram-ubot \
     && mkdir /home/ram-ubot/bin/
 
