@@ -218,7 +218,7 @@ BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 TERM_ALIAS = os.environ.get("TERM_ALIAS", "𝙆𝙔-𝙐𝘽𝙊𝙏")
 
 # Bot Version
-BOT_VER = os.environ.get("BOT_VER", "8.2.1")
+BOT_VER = os.environ.get("BOT_VER", "8.2.5")
 
 # Default .alive Username
 ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
