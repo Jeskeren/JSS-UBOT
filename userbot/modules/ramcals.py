@@ -93,6 +93,8 @@ CMD_HELP.update(
          \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.stopvc`\
          \n↳ : `Menghentikan Obrolan Suara Pada Group.`\
          \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.vcinvite`\
-         \n↳ : Invite semua member yang berada di group. (Kadang bisa kadang kaga)."
+         \n↳ : Invite semua member yang berada di group. (Kadang bisa kadang kaga).\
+         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.joinvc` & `.leavevc`\
+         \n↳ : Membuat Obrolan Suara Secara Fake."
     }
 )
