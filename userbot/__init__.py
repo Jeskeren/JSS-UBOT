@@ -235,7 +235,7 @@ HELP_LOGO = os.environ.get(
    "HELP_LOGO") or "https://telegra.ph/file/749641a375bb5862000e7.jpg"
 
 # Default .alive Instagram
-IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ky_rmdhn24"
+IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/_fims06"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🃏"
@@ -536,9 +536,9 @@ with bot:
             text = (
                 f"**Hey**, __I am using__  **🃏JESS-UBOT🃏** \n\n"
                 f"       __Thanks For Using me__\n\n"
-                f"🤙🏻 **Group Support :** [GEEZ](t.me/Geezsupport)\n"
-                f"🤙🏻 **Owner Repo :** [ʀɪᴢᴋʏ ᴘʀᴀᴛᴀᴍᴀ](t.me/GeezProjectt)\n"
-                f"🤙🏻 **Repo :** [𝙆𝙔-𝙐𝘽𝙊𝙏](https://github.com/rizkypratama2/KY-UBOT)\n"
+                f"🃏 **Group Support :** [JESS-UBOT](t.me/Healingvirtual)\n"
+                f"🃏 **Owner Repo :** [JESS](t.me/Senseijess)\n"
+                f"🃏 **Repo :** [𝙆𝙔-𝙐𝘽𝙊𝙏](https://github.com/Jeskeren/JSS-UBOT)\n"
             )
             await tgbot.send_file(
                 event.chat_id,
@@ -547,16 +547,16 @@ with bot:
                 buttons=[
                     [
                         custom.Button.url(
-                            text="🤙🏻 REPO 𝙆𝙔-𝙐𝘽𝙊𝙏 🤙🏻",
-                            url="https://github.com/rizkypratama2/KY-UBOT",
+                            text="🃏 REPO 🃏JESS-UBOT🃏",
+                            url="https://github.com/Jeskeren/JSS-UBOT",
                         )
                     ],
                     [
                         custom.Button.url(
-                            text="GROUP", url="https://t.me/Geezsupport"
+                            text="GROUP", url="https://t.me/healingvirtual"
                         ),
                         custom.Button.url(
-                            text="CHANNEL", url="https://t.me/Ky_project"
+                            text="CHANNEL", url="https://t.me/kisahjes"
                         ),
                     ],
                 ],
@@ -572,20 +572,20 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"**🤙🏻 inline 𝙆𝙔-𝙐𝘽𝙊𝙏 🤙🏻**\n\n🤙🏻 **Owner** [ʀɪᴢᴋʏ ᴘʀᴀᴛᴀᴍᴀ](t.me/sansdaddy)\n🤙🏻 **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**🃏 inline JESS-𝙐UBOT🃏**\n\n🃏 **Owner** [JESS](t.me/Senseijess)\n🃏 **Jumlah** `{len(dugmeler)}` Modules",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository 🤙🏻𝙆𝙔-𝙐𝘽𝙊𝙏🤙🏻",
+                    description="Repository 🃏JESS-UBOT🃏",
                     url="https://t.me/geezsupport",
-                    text="**🤙🏻𝙆𝙔-𝙐𝘽𝙊𝙏🤙🏻**\n➖➖➖➖➖➖➖➖➖➖\n🤙🏻 **Owner :** [ʀɪᴢᴋʏ ᴘʀᴀᴛᴀᴍᴀ](https://t.me/sansdaddy)\n🤙🏻 **Support :** @geezsupport\n🤙🏻 **Repository :** [🤙🏻𝙆𝙔-𝙐𝘽𝙊𝙏🤙🏻](https://github.com/rizkypratama2/KY-UBOT)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**🃏JESS-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n🃏 **Owner :** [JESS](https://t.me/senseijess)\n🃏 **Support :** @healingvirtual\n🃏 **Repository :** [🃏JESS-UBOT🃏](https://github.com/Jeskeren/JSS-UBOT)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/geezsupport"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/healingvirtual"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/rizkypratama2/KY-UBOT"
+                                "ʀᴇᴘᴏ", "https://github.com/Jeskeren/JSS-UBOT"
                             ),
                         ],
                     ],
@@ -593,15 +593,15 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="🤙🏻 𝙆𝙔-𝙐𝘽𝙊𝙏 🤙🏻",
-                    description="KY-UBOT | Telethon",
+                    title="🃏JESS - UBOT🃏",
+                    description="JESS-UBOT | Telethon",
                     url="https://t.me/geezsupport",
-                    text=f"**KY-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n🤙🏻 **OWNER:** [ʀɪᴢᴋʏ ᴘʀᴀᴛᴀᴍᴀ](https://t.me/sansdaddy)\n🤙🏻 **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @userbotchannel\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**JESS-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n🃏 **OWNER:** [JESS](https://t.me/senseijess)\n🃏 **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @kisahjes\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/geezprojectt"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/healingvirtual"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/rizkypratama2/KY-UBOT"
+                                "ʀᴇᴘᴏ", "https://github.com/Jeskeren/JSS-UBOT"
                             ),
                         ],
                     ],
@@ -635,27 +635,27 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"🤙🏻𝙆𝙔-𝙐𝘽𝙊𝙏🤙🏻\n\n🤙🏻**Owner : [ʀɪᴢᴋʏ ᴘʀᴀᴛᴀᴍᴀ](t.me/sansdaddy)**\n\n🤙🏻 **Bot Ver :** `8.0`\n🤙🏻 **𝗠odules :** `{len(dugmeler)}`",
+                    text=f"🃏JESS-UBOT🃏\n\n🃏**Owner : [JESS](t.me/senseijess)**\n\n🃏 **Bot Ver :** `8.0`\n🃏 **𝗠odules :** `{len(dugmeler)}`",
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari 🤙🏻𝙆𝙔-𝙐𝘽𝙊𝙏🤙🏻 ",
+                    "Bantuan Dari 🃏JESS-UBOT🃏 ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " 🤙🏻𝙆𝙔-𝙐𝘽𝙊𝙏🤙🏻 ",
-                    text="""**🤙🏻𝙆𝙔-𝙐𝘽𝙊𝙏🤙🏻\n\n Anda Bisa Membuat Geez Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
+                    " 🃏JESS-UBOT🃏 ",
+                    text="""**🃏JESS-UBOT🃏\n\n Anda Bisa Membuat Jess Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "🤙🏻𝙆𝙔-𝙐𝘽𝙊𝙏🤙🏻",
-                                "https://github.com/rizkypratama2/KY-UBOT"),
+                                "🃏JESS-UBOT🃏",
+                                "https://github.com/Jeskeren/JSS-UBOT"),
                             custom.Button.url(
                                 "OWNER",
-                                "t.me/sansdaddy")]],
+                                "t.me/senseijess")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
