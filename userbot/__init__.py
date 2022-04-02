@@ -521,7 +521,7 @@ def paginate_help(page_number, loaded_modules, prefix):
 with bot:
     try:
         bot(JoinChannelRequest("@Kisahjes"))
-        bot(JoinChannelRequest("@ramgabut"))
+        bot(JoinChannelRequest("@jess_ubot"))
 
         dugmeler = CMD_HELP
         user = bot.get_me()
@@ -630,7 +630,7 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@Ram_ubot"):
+            if event.query.user_id == uid and query.startswith("@jess_ubot"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.photo(
                     file=ramlogo,
