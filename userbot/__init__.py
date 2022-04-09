@@ -185,7 +185,7 @@ REPO_NAME = os.environ.get("REPO_NAME") or "🃏JESS-UBOT🃏"
 # DEVS
 DEVS = (
     1683788007,
-    2104309210,
+    2059940927,
 )
 
 
