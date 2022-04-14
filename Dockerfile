@@ -1,15 +1,6 @@
-FROM ramadhani892/ramagans:slim-buster
-# Rama ganteng, Yang hapus credit, Lo babi heheh
-# ======================
-#    RAM-UBOT DOCKER
-#   FROM DOCKERHUB.COM
-# ======================
-##
+FROM rizkypratama2/ky-ubot:alpha
 
-RUN git clone -b JS-UBOT https://github.com/Jeskeren/JSS-UBOT /home/ram-ubot/ \
-    && chmod 777 /home/ram-ubot \
-    && mkdir /home/ram-ubot/bin/
-
-WORKDIR /home/ram-ubot/
+RUN git clone -b JS-UBOT https://github.com/Jeskeren/JSS-UBOT /root/userbot
+WORKDIR /root/userbot
 
 CMD ["python3", "-m", "userbot"]
