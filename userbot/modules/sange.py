@@ -11,13 +11,13 @@ from telethon.tl.types import InputMessagesFilterVoice
 from telethon.tl.types import InputMessagesFilterPhotos
 
 
-@register(outgoing=True, pattern=r"^\.vidkep$")
+@register(outgoing=True, pattern=r"^\.asupan$")
 async def _(event):
     try:
         asupannya = [
             asupan
             async for asupan in event.client.iter_messages(
-                "@asupanbanget", filter=InputMessagesFilterVideo
+                "@tiktody", filter=InputMessagesFilterVideo
             )
         ]
         aing = await event.client.get_me()
@@ -89,11 +89,30 @@ async def _(event):
     except Exception:
         await event.edit("𝘎𝘢𝘥𝘢 𝘠𝘢𝘯𝘨 𝘔𝘢𝘶 𝘚𝘢𝘮𝘢 𝘓𝘰 𝘒𝘢𝘳𝘦𝘯𝘢 𝘓𝘰 𝘋𝘦𝘬𝘪𝘭 𝘬𝘢𝘺𝘢 𝘣𝘢𝘫𝘶 𝘱𝘢𝘳𝘵𝘢𝘪 𝘣𝘦𝘬𝘢𝘴𝘢𝘯🤭.")
 
+@register(outgoing=True, pattern=r"^\.alq$")
+async def _(event):
+    try:
+        qurannya = [
+            quran
+            async for quran in event.client.iter_messages(
+                "@kureenkeryam", filter=InputMessagesFilterVoice
+            )
+        ]
+        aing = await event.client.get_me()
+        await event.client.send_file(
+            event.chat_id,
+            file=random.choice(qurannya),
+            caption=f"Dengerin Bae bae ya [{owner}](tg://user?id={aing.id})",
+        )
+        await event.delete()
+    except Exception:
+        await event.edit("`Lu Haram jd gabisa denger Qur'an...`")
+
 
 CMD_HELP.update(
     {
         "asupan": "**Plugin : **`asupan`\
-        \n\n  •  **Syntax :** `.vidkep`\
+        \n\n  •  **Syntax :** `.asupan`\
         \n  •  **Function : **Untuk Mengirim video asupan secara random.\
         \n\n  •  **Syntax :** `.deswo` `.deswe`\
         \n  •  **Function : **Untuk Mengirim suara desah buat lu yang sange.\
@@ -101,4 +120,14 @@ CMD_HELP.update(
         \n  •  **Function : **Untuk Mencari ayang buat cowok yang jomblo.\
     "
     }
+)
+
+
+CMD_HELP.update(
+    {
+        "alquran": "**Plugin : **Alqur'an\
+        \n\n   •  **Syntax :** `.alq`\
+        \n   • **Function : **Untuk Mendengarkan Surat surat di Alqur'an.\
+    "
+     }
 )
