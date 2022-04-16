@@ -70,7 +70,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             )
             return repo.__del__()
         await event.edit(f'`𝙆𝙔-𝙐𝘽𝙊𝙏:'
-                         f'\nSedang Dalam proses Update 𝙆𝙔-𝙐𝘽𝙊𝙏, Mohon Menunggu beberapa Menit Ngentod`'
+                         f'\nSedang Dalam proses Update JES-UBOT, Mohon Menunggu beberapa Menit Ngentod`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -118,9 +118,9 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit(f'**𝙆𝙔-𝙐𝘽𝙊𝙏** `Berhasil Di Update Yah Ngentod!`')
+    await event.edit(f'**JES-UBOT** `Berhasil Di Update Yah Ngentod!`')
     await asyncio.sleep(1)
-    await event.edit(f'**𝙆𝙔-𝙐𝘽𝙊𝙏** `Di Restart Dulu Memek....`')
+    await event.edit(f'**JES-UBOT𝙏** `Di Restart Dulu Memek....`')
     await asyncio.sleep(1)
     await event.edit('`Mohon Menunggu Beberapa Detik Yah Tod...ツ`')
     await asyncio.sleep(10)
