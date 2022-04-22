@@ -9,8 +9,8 @@ from pytgcalls.exceptions import (
 from telethon.tl import types
 from telethon.utils import get_display_name
 from telethon.tl.functions.users import GetFullUserRequest as ngentod
-from userbot import call_py, DEVS
-from userbot.utils import edit_delete, edit_or_reply
+from userbot import call_py
+from userbot.utils import edit_delete, edit_or_reply, edit_delete
 from userbot.events import register as boy
 
 from userbot.utils.queues.queues import clear_queue
@@ -27,9 +27,8 @@ def vcmention(user):
 # recode by @lahsiajg < starboy \>
 
 @boy(outgoing=True, pattern=r"^\.joinvc(?: |$)(.*)")
-@register(incoming=True, from_user=DEVS, pattern=^\.cjoinvc(?: |$)(.*)")
 async def join_(event):
-    await edit_or_reply(event, f"**Hoiiii Pasti Ngeghibah Gua Yah......**")
+    await edit_or_reply(event, f"**Hoii Aku datangg....**")
     if len(event.text.split()) > 1:
         chat = event.chat_id
         chats = event.pattern_match.group(1)
@@ -56,13 +55,13 @@ async def join_(event):
         chats,
         stream_type=ya().pulse_stream,
     )
-    await edit_delete(event, f"**Berhasil Join Obrolan Suara**\n**Dalam Group {chat_id}**", 2)
+    await edit.delete(event, f"**Berhasil Join Ke obrolan Suara.**", 5)
 
 
 @boy(outgoing=True, pattern="^\.leavevc(?: |$)(.*)")
 async def leavevc(event):
     """ leave video chat """
-    await edit_or_reply(event, "**Gua cabut Dulu Lah Tod....**")
+    ram = await edit_or_reply(event, "**Turun dulu....**")
     chat_id = event.chat_id
     from_user = vcmention(event.sender)
     if from_user:
@@ -70,4 +69,4 @@ async def leavevc(event):
             await call_py.leave_group_call(chat_id)
         except (memek, ajg):
             await edit_or_reply(event, f"Eh {from_user}, Lo ga ada di os ngentot!!!!!")
-        await edit_delete(event, f"**Berhasil Keluar Obrolan Suara**\n**Dari Group {chat_id}**", 1)
+        await ram.edit(f"**Babay Anak kontol, {from_user} Turun dulu...**")
